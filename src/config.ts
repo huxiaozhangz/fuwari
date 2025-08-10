@@ -9,9 +9,9 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "AcoFork Blog",
+	title: "牢胡blog",
 	description:
-		"分享网络技术、服务器部署、内网穿透、静态网站搭建、CDN优化、容器化部署等技术教程与实践经验的个人技术博客，专注于云原生、无服务器架构和前后端开发，作者为afoim/二叉树树",
+		"随缘分享",
 
 	keywords: [],
 	lang: "zh_CN", // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
@@ -61,42 +61,27 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		LinkPreset.About,
 		{
-			name: "友链",
-			url: "/friends/", // Internal links should not include the base path, as it is automatically added
-			external: false, // Show an external link icon and will open in a new tab
-		},
-		{
 			name: "赞助",
 			url: "/donate/", // Internal links should not include the base path, as it is automatically added
 			external: false, // Show an external link icon and will open in a new tab
-		},
-		{
-			name: "统计",
-			url: "https://umami.2x.nz/share/ZyDjOrmjaBTlmGtd", // Internal links should not include the base path, as it is automatically added
-			external: true, // Show an external link icon and will open in a new tab
-		},
-		{
-			name: "状态",
-			url: "https://ss.2x.nz/", // Internal links should not include the base path, as it is automatically added
-			external: true, // Show an external link icon and will open in a new tab
 		},
 	],
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "https://q2.qlogo.cn/headimg_dl?dst_uin=2726730791&spec=5", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "二叉树树",
-	bio: "爱你所爱~ ❤",
+	avatar: "http://pic.hublog.cn/head.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	name: "牢胡",
+	bio: "在校学生",
 	links: [
 		{
-			name: "Bilibli",
+			name: "Bilibili",
 			icon: "fa6-brands:bilibili",
-			url: "https://space.bilibili.com/325903362",
+			url: "https://space.bilibili.com/3546566023449064",
 		},
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/afoim",
+			url: "https://github.com/huxiaozhangz",
 		},
 	],
 };
